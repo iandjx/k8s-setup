@@ -37,9 +37,7 @@ pip install awscli --upgrade --user
    ```
    helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 
-   helm install ingress-nginx
-
-   ingress-nginx/ingress-nginx
+   helm install ingress-nginx ingress-nginx/ingress-nginx
    ```
 
 6. Create route 53 hosted zone
